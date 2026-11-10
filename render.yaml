@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: bt-week02-email-list
+    env: docker
+    plan: free
+    region: singapore # hoặc oregon, frankfurt, ohio tuỳ chọn
+    dockerContext: .
+    dockerfilePath: Dockerfile
+    autoDeploy: true
+
