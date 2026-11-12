@@ -22,10 +22,10 @@
 <span>${user.dateOfBirth}</span><br>
 
 <label>Heard about us from:</label>
-<span>${user.heardFrom}</span><br>
+<span>${survey.heardFrom}</span><br>
 
 <label>Contact by:</label>
-<span>${user.contactvia}</span><br>
+<span>${survey.contactVia}</span><br>
 
 <p>To enter another email address, click on the Back button
     in your browser or Return the button shown below.</p>
